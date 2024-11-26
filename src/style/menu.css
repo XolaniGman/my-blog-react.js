@@ -1,0 +1,46 @@
+.menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5s linear;
+    background: linear-gradient(to right ,rgb(0, 6, 12) , rgb(15, 51, 85));
+    height: 3.5rem;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu-list .item {
+    font-size: 10rem;
+    padding: 10px 13px;
+    color: var(--main-color);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.menu-list .item:hover {
+    background: #27374d;
+    color: #dde6ed;
+    transition: 0.5s ease-in-out;
+
+}
+.menu-icon img {
+    width: 60px;
+    height: 40px;
+    transition: 0.5s ease-in-out;
+}

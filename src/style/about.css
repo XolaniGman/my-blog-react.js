@@ -1,0 +1,296 @@
+/* start About */
+.heading:hover {
+    zoom: 102%;
+}
+
+.about-header h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--main-color);
+    
+}
+
+.about-header p {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid rgb(78, 111, 145);
+    border-radius: 0.5rem;
+}
+
+.about-page {
+    background: linear-gradient(to left ,rgb(8, 68, 62) , rgb(0, 6, 12));
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about h2 {
+    color: var(--main-color);
+    padding: 1.2%;
+    font-size: 1.9rem;
+}
+/* Start about-container */
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+    padding: 1%;
+    width: 100%;
+    height: fit-content;
+    gap: 1rem;
+    border-radius: 0.3rem;
+    padding-bottom: 2%;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid rgb(22, 72, 88);
+    border-radius: 0.5rem;
+
+}
+
+
+.Education {
+    background: linear-gradient(to left ,rgba(8, 68, 62, 0.103) , rgb(2, 13, 24));
+    height: 20%;
+    width: 25%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.Education:hover {
+    color: var(--text-color);
+    zoom: 103%;
+}
+
+.Education img {
+    width: 80%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 0rem;
+    border: 30px solid rgb(236, 241, 243);
+    object-fit: fill;
+}
+.Education img:hover {
+    zoom:120%;
+    border: 5px solid rgb(49, 137, 167);
+    transition: 3s;
+}
+.Education span {
+    color: black;
+    width: 100%;
+    font-size: 1.3rem;
+    border: 50%;
+    border-color: 3px solid #bc9667;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.about-container span p {
+    display: flex;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 3px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 0rem;
+
+}
+
+.about-container h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+/* end about-container */
+
+
+/* start about skills */
+.skills h3 {
+    font-size: 2.5rem;
+    color: rgb(1, 58, 77);
+    padding: 2rem;
+    width: 13rem;
+}
+
+h2:hover {
+    color: black;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+
+    /* margin: 2rem; */
+
+}
+
+.box span {
+    background: #edeae3;
+    height: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+
+.box .st1 {
+    background-color: aqua;
+    width: 70%;
+    height: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: left ;
+}
+
+
+.box .st2 {
+    background-color: rgb(155, 153, 156);
+    width: 93%;
+    height: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: left ;
+}
+
+.box .st3 {
+    background-color: rgb(28, 133, 133);
+    width: 95%;
+    height: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: left ;
+}
+
+.box .st4 {
+    background-color: rgb(142, 161, 116);
+    width: 50%;
+    height: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: left ;
+}
+
+.box .st5 {
+    background-color: rgb(37, 9, 15);
+    width: 60%;
+    height: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: left ;
+}
+
+.box .st6 {
+    background-color: rgb(12, 63, 228);
+    width: 75%;
+    height: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: left ;
+}
+/* about Skills navbar */
+
+
+
+
+/* HOVER SKILLS */
+.box .st1:hover {
+    zoom: 105%;
+}
+
+.box .st2:hover {
+    zoom: 105%;
+}
+
+.box .st3:hover {
+    zoom: 105%;
+}
+
+.box .st4:hover {
+    zoom: 105%;
+}
+
+.box .st5:hover {
+    zoom: 105%;
+}
+
+.box .st6:hover {
+    zoom: 105%;
+}
+/* HOVER SKILLS */
+
+
+
+.box span a {
+    background: black;
+    height: 0.2rem;
+    padding: 2%;
+    font-size: 1rem;
+    color: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+.other-skills {
+    display: flex;
+    gap: 1.5rem;
+   
+}
+.skills-img{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    
+}
+.skills-img1{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 20rem;
+   
+    
+}
+.skills-img1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    background: transparent;
+    transition: 0.5s ease-in-out;
+}
+.skills-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: transparent;
+    transition: 0.5s ease-in-out;
+}
+.skills-img1:hover{
+   
+    border-radius: 2rem;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.3);
+    cursor:pointer;
+    
+}
+
+.skills-img:hover{
+  
+    border-radius: 2rem;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.3);
+    cursor:pointer;
+    
+}
+.otherSkills{
+    padding: 30px;
+}
